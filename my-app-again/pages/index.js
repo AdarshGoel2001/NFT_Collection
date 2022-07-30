@@ -3,7 +3,7 @@ import Web3Modal from "web3modal";
 import { Contract, providers, utils } from "ethers";
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
-import { NFT_CONTRACT_ABI, NFT_CONSTRACT_ADDRESS } from "./constants";
+import { NFT_CONTRACT_ABI, NFT_CONSTRACT_ADDRESS } from "../constants";
 
 export default function Home() {
   const [isPresaleStarted, setIsPresaleStarted] = useState(false);
